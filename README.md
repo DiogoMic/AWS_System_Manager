@@ -10,8 +10,10 @@ Step 1 : IAM Role creation.
 Okay lets get started, for us to be able to use Systems Manager to perfom operations we first need to create an IAM Role Profile for the EC2 instances.
 
 Head over to AWS management console click the search box and type IAM, on the IAM console page at the left side you will see Roles under Access management.
+
 <img width="736" alt="iam_role" src="https://github.com/McTello/AWS_System_Manager/assets/89931817/6719558e-b585-40e6-9522-ce6e5126bdc1">
 
 Here click the create Role at the right top corner. Under Trusted entity type select AWS service, scroll down to use cases and select EC2.
+
 <img width="1431" alt="ec2_role" src="https://github.com/McTello/AWS_System_Manager/assets/89931817/e9577da8-a78e-4e47-9387-b9e913ad8fe8">
 
