@@ -59,3 +59,13 @@ Scroll down to “Advance Details” under “IAM instance profile” click and 
 
 <img width="779" alt="IAM_instance-profile_select_2" src="https://github.com/McTello/AWS_System_Manager/assets/89931817/bce4f61f-f3c5-4a6b-a6cf-5bb49db36f40">
 
+Scroll down to “user data” and paste the following bash script below.
+
+Note: This script is as a result of the operating system I selected which is Redhat as a result system manager agent is not pre-installed in it.
+
+So the script below downloads the systems manager agent and starts it.
+
+#/bin/bash
+sudo dnf install -y https:/ /s3.amazonaws.com/ec2-downloads-windows/SSMAgent/latest/linux_amd64/amazon-ssm-agent.rpm
+sudo systemctl enable amazon-ssm-agentpm 
+sudo systemctl start amazon-ssm-agent
