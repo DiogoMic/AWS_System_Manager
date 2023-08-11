@@ -30,6 +30,7 @@ STEP 2 : EC2 Instance creation
 Here we launch instances that will be updated using systems manager.
 
 <img width="735" alt="ec2_console" src="https://github.com/McTello/AWS_System_Manager/assets/89931817/bf83e959-3dcd-421f-ab39-57ccffa6201d">
+
 Click launch instance.
 
 <img width="807" alt="os_selection_1" src="https://github.com/McTello/AWS_System_Manager/assets/89931817/345b815d-6045-4900-8995-fabc42e3e8a1">
