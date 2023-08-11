@@ -40,3 +40,22 @@ Name your instance
 Select an operating system for your instance, leave the default AMI and Architecture
 
 <img width="796" alt="instance_type" src="https://github.com/McTello/AWS_System_Manager/assets/89931817/1bb37b0f-5577-431b-96d6-bd98d06ebae1">
+
+Under instance type select the “Free tier eligible” ones, under keypair login select “ Proceed without a key pair”.
+
+<img width="801" alt="SG_2" src="https://github.com/McTello/AWS_System_Manager/assets/89931817/9345c12f-4b35-4bcd-8c65-b74aa9f040a9">
+
+
+Under Network settings click “ Select existing security group”.
+
+<img width="788" alt="SG_1" src="https://github.com/McTello/AWS_System_Manager/assets/89931817/2f2fa7ba-46e8-48ec-b141-0d2c0cccb4ae">
+
+Select your default security group.
+
+<img width="809" alt="iam_instance-profile_select_1" src="https://github.com/McTello/AWS_System_Manager/assets/89931817/7713dc5a-87c3-4fd7-bbfa-46aaef94c75e">
+
+
+Scroll down to “Advance Details” under “IAM instance profile” click and select the IAM role you created earlier.
+
+<img width="779" alt="IAM_instance-profile_select_2" src="https://github.com/McTello/AWS_System_Manager/assets/89931817/bce4f61f-f3c5-4a6b-a6cf-5bb49db36f40">
+
