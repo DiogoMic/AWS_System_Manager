@@ -59,10 +59,10 @@ Scroll down to “Advance Details” under “IAM instance profile” click and 
 
 <img width="779" alt="IAM_instance-profile_select_2" src="https://github.com/McTello/AWS_System_Manager/assets/89931817/bce4f61f-f3c5-4a6b-a6cf-5bb49db36f40">
 
-Scroll down to “user data” and paste the following bash script from the Bash script
+Scroll down to “user data” and paste the following bash script from the Bash script file in the directory
 
 Note: This script is as a result of the operating system I selected which is Redhat as a result system manager agent is not pre-installed in it.
 
-So the script below downloads the systems manager agent and starts it.
+So the script downloads the systems manager agent and starts it.
 
 
