@@ -29,4 +29,9 @@ Verify that it’s the correct policy that is selected, now scroll down and clic
 STEP 2 : EC2 Instance creation
 Here we launch instances that will be updated using systems manager.
 <img width="735" alt="ec2_console" src="https://github.com/McTello/AWS_System_Manager/assets/89931817/bf83e959-3dcd-421f-ab39-57ccffa6201d">
-
+Click launch instance.
+<img width="807" alt="os_selection_1" src="https://github.com/McTello/AWS_System_Manager/assets/89931817/345b815d-6045-4900-8995-fabc42e3e8a1">
+<img width="764" alt="os_selection_2" src="https://github.com/McTello/AWS_System_Manager/assets/89931817/e668c255-0f7f-46b1-90a5-6633522f0665">
+Name your instance
+Select an operating system for your instance, leave the default AMI and Architecture
+<img width="796" alt="instance_type" src="https://github.com/McTello/AWS_System_Manager/assets/89931817/1bb37b0f-5577-431b-96d6-bd98d06ebae1">
