@@ -26,3 +26,7 @@ Now give your Role a name and description.
 Verify that it’s the correct policy that is selected, now scroll down and click “create role”.
 <img width="1104" alt="create_role" src="https://github.com/McTello/AWS_System_Manager/assets/89931817/d1511f03-976f-422b-81c9-e813d9fdc6cc">
 
+STEP 2 : EC2 Instance creation
+Here we launch instances that will be updated using systems manager.
+<img width="735" alt="ec2_console" src="https://github.com/McTello/AWS_System_Manager/assets/89931817/bf83e959-3dcd-421f-ab39-57ccffa6201d">
+
