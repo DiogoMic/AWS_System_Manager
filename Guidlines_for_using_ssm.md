@@ -63,6 +63,20 @@ Scroll down to “user data” and paste the following bash script from the Bash
 
 Note: This script is as a result of the operating system I selected which is Redhat as a result system manager agent is not pre-installed in it.
 
-So the script downloads the systems manager agent and starts it.
+So the script downloads and installs the systems manager agent and starts it.
 
+Now in number of instance type 3 click launch instance.
 
+<img width="411" alt="ec2_launch" src="https://github.com/McTello/AWS_System_Manager/assets/89931817/00f8bd8c-bd1d-49ce-a9c7-733a2eca66c7">
+
+Great !!! you have successfully launch your instances.
+
+STEP 3: USING SYSTEMS MANAGER TO RUN COMMANDS ON YOUR INSTANCE
+
+Now head over to the Systems Manager, click Fleet Manager at the left side of the screen.
+
+<img width="1469" alt="system_manager_console" src="https://github.com/McTello/AWS_System_Manager/assets/89931817/082fa4c5-28af-4b59-90b7-656f944a5fdf">
+
+Here your instances with Systems Manager Agent installed will be displayed. Select all three instances.
+
+NOTE: If your instances are not displaying here that means the Systems Manager Agents was not successfully installed, so conect to the instance using SSH, and install the Systems Manager Agent for each instances.
