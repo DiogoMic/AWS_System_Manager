@@ -101,3 +101,30 @@ Now scroll down to the command pallete,here we will writing a command to update 
 <img width="961" alt="command_line" src="https://github.com/McTello/AWS_System_Manager/assets/89931817/ef05ea3b-868a-4fbe-aeb2-2a5a49e62e79">
 
 Scroll down to target selection and select the instances that you want the command to be executed on.
+
+
+<img width="1130" alt="target_selection" src="https://github.com/McTello/AWS_System_Manager/assets/89931817/bf715fc4-1af4-4582-a1d9-f262f7d6a528">
+
+After selecting your targets click “Run”.
+
+<img width="1150" alt="run_command" src="https://github.com/McTello/AWS_System_Manager/assets/89931817/d53a003d-420a-4215-9c61-f218478d4f05">
+
+Your command status should show “ In progress”.
+
+<img width="1170" alt="command_status_in-progress" src="https://github.com/McTello/AWS_System_Manager/assets/89931817/abc0382a-69f2-4081-bc48-c1fd9f770905">
+
+If successful the overall status changes to “ Success”
+
+<img width="1162" alt="command_status_sucessful" src="https://github.com/McTello/AWS_System_Manager/assets/89931817/9825f410-a6b7-4a98-b4a9-090e98288172">
+
+Congratulations you have successfully used system manager to update a set of instances.
+
+STEP 4
+
+<img width="1470" alt="session_manager_terminal" src="https://github.com/McTello/AWS_System_Manager/assets/89931817/3960a510-cfed-4d3a-b510-987feef3cfaa">
+
+You head over to EC2, select one of the instances and connect using session manager, run the command “sudo yum update -y” you should a message saying “Nothing to do”.
+
+Now you head over to step x in the command pallete type in “sudo shutdown” scroll down and select your targets which are the instances you want to shutdown, scroll and click run. Wait for the overall status to display success.
+
+Congratulations you heard over to the EC2 console to terminate your instances.
