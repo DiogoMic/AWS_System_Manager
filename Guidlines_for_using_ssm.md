@@ -80,3 +80,24 @@ Now head over to the Systems Manager, click Fleet Manager at the left side of th
 Here your instances with Systems Manager Agent installed will be displayed. Select all three instances.
 
 NOTE: If your instances are not displaying here that means the Systems Manager Agents was not successfully installed, so conect to the instance using SSH, and install the Systems Manager Agent for each instances.
+
+<img width="1381" alt="node_selection" src="https://github.com/McTello/AWS_System_Manager/assets/89931817/f0e87226-c13a-4751-9a42-adb0859511d5">
+
+After selecting your instances click node action, select “Tools” and click “ Execute run command”.
+
+![node_action](https://github.com/McTello/AWS_System_Manager/assets/89931817/74b8cd6e-0d88-4295-a55c-ecea18afa925)
+
+In the search bar type in the type of command you want to excute.
+
+<img width="1119" alt="select_command" src="https://github.com/McTello/AWS_System_Manager/assets/89931817/02c5784f-5de5-4fcd-8ea1-d316fa7b5a52">
+
+For this project we will be using “AWS-RunShellScript” command, so type in the command select it from drop down list.
+
+<img width="1081" alt="command_selected" src="https://github.com/McTello/AWS_System_Manager/assets/89931817/a54691aa-6808-4fef-8d95-6e4ef3b4ffc7">
+
+
+Now scroll down to the command pallete,here we will writing a command to update the instances. Type “sudo yum update -y” .
+
+<img width="961" alt="command_line" src="https://github.com/McTello/AWS_System_Manager/assets/89931817/ef05ea3b-868a-4fbe-aeb2-2a5a49e62e79">
+
+Scroll down to target selection and select the instances that you want the command to be executed on.
