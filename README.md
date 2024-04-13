@@ -1,6 +1,6 @@
-Hello !!!
+#Hello !!!
 
-In this repository you are going to see a documentation on how to use AWS Systems Manager to run scripts on various EC2 Instances.
+In this repository you are going to see a [documentation] (https://github.com/DiogoMic/AWS_System_Manager/blob/main/Project%20Guideline.md) on how to use AWS Systems Manager to run scripts on various EC2 Instances.
 
 Things you will learn.........
 
@@ -8,4 +8,4 @@ Things you will learn.........
 2. Using RUN command under Fleet Management
 
 
-Enjoy !!!!
+##Enjoy !!!!
